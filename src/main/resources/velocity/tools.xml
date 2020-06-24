@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<tools>
+    <!--配置固定参数-->
+    <data type="String" key="yinrong" value="123"/>
+    <!--配置工具类-->
+    <toolbox scope="application">
+        <tool key ='StringUtils' class="org.apache.commons.lang3.StringUtils"/>
+        <tool key ='CacheUtil' class="com.yinrong.report.util.CacheUtil"/>
+    </toolbox>
+</tools>
